@@ -12,7 +12,7 @@ namespace ProgramFlow
             ic.IfStatement();
             ic.IfElseStatement();
             ic.ElseIfStatement();
-            ic.CoinFlip();
+            ic.CoinFlipper();
 
         }
     }

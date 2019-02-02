@@ -64,23 +64,32 @@ namespace ProgramFlow
         int coin;
         Random rng = new Random();
 
-        public void CoinFlip()
+        public void CoinFlipper()
         {
-            Console.WriteLine("Press ENTER to flip the coin");
-            Console.ReadKey();
             coin = rng.Next(2);
 
-            if (coin == 0)
-            {
-                Console.WriteLine("Heads.");
-            }
+            Console.WriteLine("Press ENTER to flip the coin, or 99 to quit");
+            string quit = (Console.ReadLine());
 
+            if(quit == "99")
+            {
+                return;
+            }
             else
             {
-                Console.WriteLine("Tails.");
+                if (coin == 0)
+                {
+                    Console.WriteLine("Heads.");
+                    CoinFlipper();
+                }
+
+                else
+                {
+                    Console.WriteLine("Tails.");
+                    CoinFlipper();
+                }
             }
         }
-
         
     }
 }
