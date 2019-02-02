@@ -6,7 +6,18 @@ namespace ProgramFlow
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Program Flow in C#!");
+
+            var ic = new IFclass();
+            ic.IfStatement();
+            ic.IfElseStatement();
+            ic.ElseIfStatement();
+            ic.CoinFlip();
+
         }
     }
 }
+
+
+// = assignment
+// == compasrison
