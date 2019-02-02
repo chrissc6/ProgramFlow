@@ -60,7 +60,7 @@ namespace ProgramFlow
             }
         }
 
-        //CoinFlip using if else
+        //Coin flip using if else
         int coin;
         Random rng = new Random();
 

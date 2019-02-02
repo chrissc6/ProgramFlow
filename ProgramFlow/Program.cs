@@ -14,6 +14,11 @@ namespace ProgramFlow
             ic.ElseIfStatement();
             ic.CoinFlipper();
 
+            var wc = new WhileClass();
+            wc.WhileLoop();
+            wc.DoWhileLoop();
+            wc.NumberGuess();
+
         }
     }
 }
