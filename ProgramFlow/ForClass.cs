@@ -116,3 +116,14 @@ namespace ProgramFlow
 
     }
 }
+/*
+ * for(int i = 0; 1 < 10; i++)
+ * {
+ *  loop 10 times
+ * }
+ * 
+ * foreach(myclass mc in mycollection)
+ * {
+ *  execute once for each mc object in mycollection
+ * }
+ */

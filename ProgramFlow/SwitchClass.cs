@@ -51,5 +51,51 @@ namespace ProgramFlow
                 return;
             }
         }
+
+
+        //switch statement for day of the week
+
+        public void SwitchDayOfWeek()
+        {
+            var DayOfWeek = DateTime.Now.DayOfWeek;
+            //string x = "Today is ";
+            Console.Write("Today is ");
+
+            switch (DayOfWeek)
+            {
+                case DayOfWeek.Sunday:
+                    Console.Write("Sunday");
+                    break;
+
+                case DayOfWeek.Monday:
+                    Console.Write("Monday");
+                    break;
+
+                case DayOfWeek.Tuesday:
+                    Console.Write("Tuesday");
+                    break;
+
+                case DayOfWeek.Wednesday:
+                    Console.Write("Wednesday");
+                    break;
+
+                case DayOfWeek.Thursday:
+                    Console.Write("Thursday");
+                    break;
+
+                case DayOfWeek.Friday:
+                    Console.Write("Friday");
+                    break;
+
+                case DayOfWeek.Saturday:
+                    Console.Write("Saturday");
+                    break;
+
+                default:
+                    Console.Write("Lol");
+                    break;
+            }
+            Console.WriteLine();
+        }
     }
 }

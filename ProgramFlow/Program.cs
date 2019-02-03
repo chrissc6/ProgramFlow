@@ -29,6 +29,7 @@ namespace ProgramFlow
 
             //var sc = new SwitchClass();
             //sc.SwitchStatement();
+            //sc.SwitchDayOfWeek();
         }
     }
 }
